@@ -22,10 +22,6 @@ const char* password_ap = "1234";
 IPAddress IP(30, 8, 6, 5); // Set your desired static IP address
 IPAddress gateway(30, 8, 6, 5); // Set your gateway IP address
 IPAddress subnet(255, 255, 255, 0); // Set your subnet mask
-//const char* ssid = "Starnet";
-//const char* password = "LeTMeiNPLeaSe";
-//IPAddress gateway(192,168,8,1); // Set your gateway IP address
-//IPAddress subnet(255, 255, 255, 0); // Set your subnet mask
 AsyncWebServer server(80);
 
 bool wifiConnected = false;
